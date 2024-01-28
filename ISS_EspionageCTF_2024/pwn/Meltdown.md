@@ -10,8 +10,8 @@ Luckily, we are given the source code to the service. Lets see what the service 
 ## Source code review
 
 Opening the meltdown.c file gives us the following
-`
-#include <stdio.h>
+
+`#include <stdio.h>
 #include <stdlib.h>
 int BUFFER_SIZE = 256;
 
@@ -59,5 +59,5 @@ int main(){
     }
     
     return 0;
-}
-`
+}`
+
