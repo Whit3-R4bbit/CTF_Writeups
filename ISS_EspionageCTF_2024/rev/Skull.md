@@ -27,7 +27,7 @@ Unfortunately, there's no flag to be found here. Time to dig deeper.
 
 To analyse the executable further, ill be using the lighweight disassembler `Cutter`.
 
-Taking a look at the main function, it doesnt seem us much.
+Taking a look at the main function, it doesnt seem very helpful.
 
     int main(int argc, char **argv, char **envp);
     ; var int cy @ stack - 0x408
